@@ -5,6 +5,8 @@ Este es el repositorio de Implementación para la concentración en Inteligencia
 
 - [Entregable 2: 31/08/2023](Entregables/Entregable2.ipynb) - Este es el notebook en donde esta la implementación con framework de algun modelo visto en clase.
 
+- [Entregable 3: 05/09/2023](Entregables/Entregable3.ipynb) - Aqui viene el analisis sobre el desempeño de los modelos. 
+
 ## Estructura del Repositorio 
 ```
 📦PortafolioImplementacionClaseIA
