@@ -1,5 +1,5 @@
 # Portafolio de Implementacion
-Este es el repositorio de Implementación para la concentración en Inteligencia Artificial Avanzada de ELías Garza Valdés A01284041.
+Este es el repositorio de Implementación para la concentración en Inteligencia Artificial Avanzada de Elías Garza Valdés A01284041.
 ## Entregables
 - [Entregable 1: 21/08/2023](Entregables/Entregable1.ipynb) - Este es el notebook en donde esta la implementación manual de una regresion multilinear correspondiente para la etapa 1.
 
@@ -7,7 +7,7 @@ Este es el repositorio de Implementación para la concentración en Inteligencia
 
 - [Entregable 3: 05/09/2023](Entregables/Entregable3.ipynb) - Aqui viene el analisis sobre el desempeño de los modelos. 
 
-- [Entregable Fianl: 11/09/2023](Entregables/EntregableFinal.ipynb) - Este es el resultado final con todas las correcciones hechas. 
+- [Entregable Fianal: 11/09/2023](Entregables/EntregableFinal.ipynb) - Este es el resultado final con la concatenación de las entregas con todas las correcciones hechas. 
 
 ## Estructura del Repositorio 
 ```
