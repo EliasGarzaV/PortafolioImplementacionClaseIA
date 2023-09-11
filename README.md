@@ -7,17 +7,28 @@ Este es el repositorio de Implementación para la concentración en Inteligencia
 
 - [Entregable 3: 05/09/2023](Entregables/Entregable3.ipynb) - Aqui viene el analisis sobre el desempeño de los modelos. 
 
-- [Entregable Fianal: 11/09/2023](Entregables/EntregableFinal.ipynb) - Este es el resultado final con la concatenación de las entregas con todas las correcciones hechas. 
+- [Entregable Final: 11/09/2023](Entregables/EntregableFinalML.ipynb) - Este es el resultado final con la concatenación de las entregas con todas las correcciones hechas para el módulo de Machine learning. Contiene la aparte de implementación asi como la última entrega de Análisis para las cuales se utilizó el mismo modelo. (*Si usted es el profesor Ivan este es el archivo bueno por ver*)
 
 ## Estructura del Repositorio 
 ```
 📦PortafolioImplementacionClaseIA
+ ┣ 📂Actividades Estadistica
+ ┃ ┣ 📜Act-4-Intervalos.pdf
+ ┃ ┣ 📜Act-6ANOVAS.pdf
+ ┃ ┣ 📜Act7.pdf
+ ┃ ┗ 📜Actividad-5.pdf
  ┣ 📂Data
  ┃ ┣ 📜diabetes-dataset.csv
  ┃ ┗ 📜salary.csv
  ┣ 📂Entregables
- ┃ ┗ 📜Entregable1.ipynb
+ ┃ ┣ 📜Entregable1.ipynb
+ ┃ ┣ 📜Entregable2.ipynb
+ ┃ ┣ 📜Entregable3.ipynb
+ ┃ ┗ 📜EntregableFinalML.ipynb
  ┣ 📂functions
+ ┃ ┣ 📂__pycache__
+ ┃ ┃ ┣ 📜evaluation.cpython-39.pyc
+ ┃ ┃ ┗ 📜Multilinear_regression.cpython-39.pyc
  ┃ ┣ 📜evaluation.py
  ┃ ┗ 📜Multilinear_regression.py
  ┗ 📜README.md
@@ -35,7 +46,7 @@ Posteriormente veremos que tal funciona otro modelo como arboles de regreción o
 
 ## Sobre los cambios y correcciones
 
-Los siguientes son las correcciones que se le han aplicado a este documento a partir de la retroalimentación del profesor:
+Los siguientes son las correcciones que se le han aplicado a este documento a partir de la retroalimentación del profesor para el caso del portafolio de Implementación:
 
  - Añadir contexto sobre la base de datos y link en el `README.md` de este repositorio.
  - Añadir descripción del modelo utilizado en el `README:md`
@@ -47,4 +58,14 @@ Los siguientes son las correcciones que se le han aplicado a este documento a pa
  - Ahora se hace la comparación con residuales y la diferencia entre los resultados. 
  - Ahora se varian diversos hiperparámetros al momento de generar las pruebas. 
 
+Asimismo, para la entrega de Análisis tenmos los siguientes cambios (excluyendo cambios redundantes que ya se hicieron para la parte de implementacion):
+
+ - Ahora separamos los datos en entrenamiento-validación-pruebas en una proporción 64:16:20. 
+ - Hacemos todas nuestras pruebas con el conjunto de validación. El de pruebas es solo al final para revisar la evaluación final del modelo. 
+ - Hacemos una busqueda para optimizar los hiperparámetros del modelo de gradiente descendiente estocastico. Variamos el learning rate inicial, el parametro de regularización, la función de error y las iteraciones máximas. 
+ - Analizamos el sesgo comparando las métricas de nuestros 3 conjuntos de datos y tenemos la tabla de diferencias entre nuestros conjuntos de entrenamiento y validación para el caso del gradiente descendiente. 
+ - La varianza ahora la podemos ver a través de los diagramas de residuos de nuestros modelos los cuales se encuentran en la evaluación. 
+ - Comparamos las metricas de los conjuntos para concluir que no tenemos un overfitting alto. 
+ - En nuestro modelo de gradiente descendiente añadimos una regularización del tipo 'l1' para mejorar los resultados. 
+ 
 
