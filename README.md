@@ -46,6 +46,8 @@ Posteriormente veremos que tal funciona otro modelo como arboles de regreción o
 
 ## Sobre los cambios y correcciones
 
+
+### Implementación
 Los siguientes son las correcciones que se le han aplicado a este documento a partir de la retroalimentación del profesor para el caso del portafolio de Implementación:
 
  - Añadir contexto sobre la base de datos y link en el `README.md` de este repositorio.
@@ -58,6 +60,7 @@ Los siguientes son las correcciones que se le han aplicado a este documento a pa
  - Ahora se hace la comparación con residuales y la diferencia entre los resultados. 
  - Ahora se varian diversos hiperparámetros al momento de generar las pruebas. 
 
+### Análisis
 Asimismo, para la entrega de Análisis tenmos los siguientes cambios (excluyendo cambios redundantes que ya se hicieron para la parte de implementacion):
 
  - Ahora separamos los datos en entrenamiento-validación-pruebas en una proporción 64:16:20. 
