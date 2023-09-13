@@ -9,6 +9,10 @@ Este es el repositorio de Implementación para la concentración en Inteligencia
 
 - [Entregable Final: 11/09/2023](Entregables/EntregableFinalML.ipynb) - Este es el resultado final con la concatenación de las entregas con todas las correcciones hechas para el módulo de Machine learning. Contiene la aparte de implementación asi como la última entrega de Análisis para las cuales se utilizó el mismo modelo. (*Si usted es el profesor Ivan este es el archivo bueno por ver*)
 
+- [Reporte Final Estadistica](Entregables/Problema_de_Autos_Estadistica.pdf) - Resporte final del problema de autos para el módulo de estadistica. 
+
+
+
 ## Estructura del Repositorio 
 ```
 📦PortafolioImplementacionClaseIA
@@ -16,7 +20,9 @@ Este es el repositorio de Implementación para la concentración en Inteligencia
  ┃ ┣ 📜Act-4-Intervalos.pdf
  ┃ ┣ 📜Act-6ANOVAS.pdf
  ┃ ┣ 📜Act7.pdf
- ┃ ┗ 📜Actividad-5.pdf
+ ┃ ┣ 📜Actividad-5.pdf
+ ┃ ┣ 📜Fase2.ipynb # codigo utilizado para el reporte
+ ┃ ┗ 📜Problema_de_Autos_estadistica.pdf
  ┣ 📂Data
  ┃ ┣ 📜diabetes-dataset.csv
  ┃ ┗ 📜salary.csv
